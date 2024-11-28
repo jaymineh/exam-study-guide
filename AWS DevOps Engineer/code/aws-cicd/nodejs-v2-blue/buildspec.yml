@@ -14,7 +14,7 @@ phases:
             - echo "we are in the build block"
             - echo "we will run some tests"
             - ls -la
-            - grep -Fq "Congratulations" AWS DevOps Engineer/code/aws-cicd/nodejs-v2-blue/index.html
+            - grep -Fq "Congratulations" "AWS DevOps Engineer/code/aws-cicd/nodejs-v2-blue/index.html"
     post_build:
         commands:
             - echo "we are in the post build phase"
